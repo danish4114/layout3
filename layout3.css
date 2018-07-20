@@ -64,26 +64,16 @@
 	margin-right: 0;
 	float: left;
 }
-.top_line,.second_line,.lower_line{
-	width: 100%;
-	margin:auto;
-	border:.5px solid #E5E7E9;
-}
 .top_line{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.clock span{
-	margin-left: 5px;
-	font-weight: 100;
-}
-.second_line{
-	margin-top: 20px;
+.clock{
+	border-top:.5px solid #E5E7E9;
+	border-bottom:.5px solid #E5E7E9;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	margin-bottom: 20px;
-}
-.lower_line{
-	margin-top: 20px;
-	margin-bottom: 30px;
 }
 img{
 	width: 100%;
@@ -110,9 +100,16 @@ img{
 	font-family: Arial;
 	font-size:14px;
 	font-weight:100;
+	margin-left: 4px;
 }
 .content{
 	text-align: justify;
+	border-top:.5px solid #E5E7E9;
+	border-bottom:.5px solid #E5E7E9;
+	padding-top: 25px;
+	margin-top: 17px;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
 }
 .content h1{
 	font-family: Arial;
@@ -213,15 +210,6 @@ form.example button {
 	font-family: Arial;
 	font-weight: 100;
 	font-size: 14px;
-}
-.footer{
-	width:92%;
-	margin: auto;
-	float: left;
-	border:.5px solid #E5E7E9;
-	margin-left: 4%;
-	margin-top: 41px;
-	margin-bottom: 41px;
 }
 .copyright{
 	width:92%;
